@@ -1,0 +1,60 @@
+<?php
+
+declare(strict_types=1);
+/**
+ * This file is part of https://github.com/zhaohao19941221.
+ */
+return [
+    'fields' => [
+        'id' => 'ID',
+        'name' => '名称',
+        'username' => '用户名',
+        'email' => '邮箱',
+        'http_path' => 'HTTP路径',
+        'password' => '密码',
+        'password_confirmation' => '确认密码',
+        'created_at' => '创建时间',
+        'updated_at' => '更新时间',
+        'permissions' => '权限',
+        'slug' => '标识',
+        'user' => '用户',
+        'order' => '排序',
+        'ip' => 'IP',
+        'method' => '方法',
+        'uri' => 'URI',
+        'roles' => '角色',
+        'path' => '路径',
+        'input' => '输入',
+        'type' => '类型',
+        'status' => '状态',
+        'url' => 'url',
+        'userId' => '用户id',
+        'userName' => '用户昵称',
+        'modeName' => '模型名称',
+        'apiName' => 'api名称',
+        'apiUrl' => 'url',
+        'modeId' => '模型id',
+        'apiId' => 'apiId',
+    ],
+    'labels' => [
+        'list' => '列表',
+        'edit' => '编辑',
+        'detail' => '详细',
+        'create' => '创建',
+        'root' => '顶级',
+        'scaffold' => '代码生成器',
+        'userId' => '用户id',
+        'userName' => '用户昵称',
+        'modeName' => '模型名称',
+        'apiName' => 'api名称',
+        'apiUrl' => 'url',
+        'modeId' => '模型id',
+        'apiId' => 'apiId',
+        'ChatgptChat' => '聊天机器人',
+        'ChatgptImageCreate' => '创建图片',
+        'ChatgptImageEdit' => '编辑图片',
+        'ChatgptImageVariation' => '图片变体',
+    ],
+    'options' => [
+    ],
+];
